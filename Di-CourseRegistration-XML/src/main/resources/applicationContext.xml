@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Course Registration Bean -->
+    <bean id="courseReg" class="com.klu.demo.Model.CourseRegistration">
+        <constructor-arg value="101"/>
+        <constructor-arg value="Reddy"/>
+        <property name="courseName" value="FSAD"/>
+        <property name="sem" value="4"/>
+    </bean>
+</beans>
