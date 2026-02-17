@@ -1,0 +1,10 @@
+.metadata/
+bin/
+target/
+*.log
+*.class
+*.jar
+*.war
+*.ear
+node_modules/
+.DS_Store
